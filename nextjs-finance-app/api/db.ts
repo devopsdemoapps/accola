@@ -1,11 +1,17 @@
+// This file contains the database connection pool info.
+// Actual Connection details are configured in dbConfig.ts file.
+// db.ts
+
+import dbConfig from './../dbConfig'; 
+
 import { Pool } from 'pg';
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'finance_app',
-  password: 'password',
-  port: 5432,
+  user: dbConfig.user,
+  host: dbConfig.host,
+  database: dbConfig.database,
+  password: dbConfig.password,
+  port: dbConfig.port,
 });
 
 export default {
