@@ -1,0 +1,32 @@
+.reportsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.reportTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.reportTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reportTable th,
+.reportTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.reportTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

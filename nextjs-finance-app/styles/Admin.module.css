@@ -1,0 +1,60 @@
+.adminContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.adminTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.adminForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.adminForm input,
+.adminForm select {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.adminForm button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.adminForm button:hover {
+  background-color: #0051bb;
+}
+
+.adminTable {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.adminTable th,
+.adminTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.adminTable th {
+  background-color: #f3f3f3;
+}
+
+.adminTable td {
+  text-align: center;
+}
